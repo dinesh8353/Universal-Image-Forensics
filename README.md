@@ -37,14 +37,13 @@ A Python-based AI Image Forensics application that detects image authenticity us
 Universal-Image-Forensics/
 │
 ├── code/
-│   ├── app.py
-│   ├── uploads/
-│   ├── run.txt
-│   └── student.txt
+|── app.py
+├── uploads/
+|── run.txt
+│── student.txt
 │
 ├── images/
-├── ppt/
-├── report/
+|-requirements.txt
 └── README.md
 ```
 
@@ -74,7 +73,7 @@ python app.py
 
 ## 👨‍💻 Author
 
-**Dinesh Kumar S**
+**DineshKumar S**
 
 B.Tech – Information Technology
 
@@ -87,7 +86,7 @@ https://github.com/dinesh8353
 
 This project is created for educational and academic purposes.
 ## Live Demo
-https://your-render-url.onrender.com
+https://universal-image-forensics-5.onrender.com
 
 ## GitHub Repository
-https://github.com/dinesh8353/Smart-Bank-Locker-Management-System
+https://github.com/dinesh8353/Universal Image Forensics
