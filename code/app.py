@@ -183,7 +183,7 @@ footer{text-align:center;margin:40px 0;color:#777;}
 <div class="hero">
 <div>
 <h2>AI Image Authenticity Checker</h2>
-<p>Detect deepfake and AI‑generated images using forensic analysis.</p>
+<p>Detect deepfake and AIgenerated images using forensic analysis.</p>
 </div>
 <i class="fa-solid fa-image" style="font-size:120px;opacity:.2;"></i>
 </div>
@@ -214,7 +214,7 @@ footer{text-align:center;margin:40px 0;color:#777;}
 </div>
 </div>
 
-<footer>© 2026 Deepfake Detection · Academic Project</footer>
+<footer> 2026 Deepfake Detection · Academic Project</footer>
 
 <script>
 async function go(){
@@ -253,6 +253,6 @@ async function go(){
 @app.route("/")
 def home():
     return render_template_string(HTML)
-
-if __name__=="__main__":
-    app.run(debug=True)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port, debug=False)
